@@ -1,0 +1,56 @@
+@import url('../foundation-icons/foundation-icons.css');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Roboto+Slab:400,700&display=swap');
+body {
+  font-family: 'Oswald', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+
+}
+
+.edit-link, .entry-title {
+  display: none;
+
+}
+
+.hire_menu_container {
+  background-color: $medium-gray;
+  padding: 8px 8px 4px 12px;
+}
+
+#hire_menu {
+  cursor: pointer;
+}
+
+.hire_menu {
+  display: none;
+}
+
+
+.cons {
+  .item {
+    border-bottom: 2px solid $primary-color;
+    margin-bottom: 6px;
+    .first_event {
+      @include xy-cell(6);
+    }
+    .second_event {
+      @include xy-cell(6);
+    }
+  }
+}
+
+.broadcastList {
+  display: none;
+}
+
+
+table.soundex {
+  td {
+    font-size: 0.9em;
+    .broadcast {
+      font-size: 0.8em;
+    }
+  }
+}
